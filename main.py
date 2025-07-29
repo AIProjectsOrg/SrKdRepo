@@ -14,7 +14,7 @@ from config import Config
 
 def train(args):
     """Run training"""
-    from train_modular import SuperResolutionTrainer
+    from train import SuperResolutionTrainer
     
     # Update config if custom paths provided
     if args.train_data:
@@ -33,7 +33,7 @@ def train(args):
 
 def inference(args):
     """Run inference"""
-    from inference_modular import main as inference_main
+    from inference import main as inference_main
     
     # Update config if custom paths provided
     if args.teacher_model:
@@ -46,7 +46,7 @@ def inference(args):
 
 def evaluate(args):
     """Run evaluation"""
-    from test_metrics_modular import main as evaluate_main
+    from test_metrics import main as evaluate_main
     
     # Update config if custom paths provided
     if args.val_data:
@@ -61,7 +61,7 @@ def evaluate(args):
 
 def benchmark(args):
     """Run speed benchmark"""
-    from test_speed_modular import main as benchmark_main
+    from test_speed import main as benchmark_main
     
     # Update config if custom paths provided
     if args.teacher_model:
