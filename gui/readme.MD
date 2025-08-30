@@ -1,4 +1,6 @@
-Issue:
 
+# create virtual env
+py -3.11 -m venv test_env
 
-https://github.com/microsoft/onnxruntime/issues/16116
+# install requirements
+pip install -r requirements.txt
