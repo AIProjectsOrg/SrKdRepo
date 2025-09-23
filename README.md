@@ -1,5 +1,9 @@
 # Super Resolution with Knowledge Distillation
 
+pretrained weights:
+- [Pretraining](https://drive.google.com/drive/folders/1OjZAIbtoMuPI_xbCCeDZUQEf-2a-cjAw?usp=sharing)
+- [Fine-Tuning](https://drive.google.com/drive/folders/1RV8NU2L3DNvTZSiUGnb66tN_ra8ZP4Ym?usp=sharing)
+
 This is a refactored and modularized version of the super resolution project that uses knowledge distillation to train a lightweight student model (SwinIR) from a teacher model (MicroSR).
 
 ## Project Structure
